@@ -1,1 +1,34 @@
+# OS
 .DS_Store
+
+# Internal working directory — drafts, audits, transcripts, intermediate scope docs.
+# Final scope is published under docs/ instead.
+Local_Dev/
+
+# Internal planning / branch tracking — between local working repo only.
+BRANCH_LOG.md
+
+# Spec Kit planning workspace — internal structured planning, not for stakeholders.
+.specify/
+
+# Editor/agent integration — may contain credentials per upstream guidance.
+.cursor/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node / web UI build artifacts
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# Logs and temp files
+*.log
+*.tmp
+.cache
